@@ -1,0 +1,1 @@
+// Entry point for backend (intitalizes the express server, integrate routes, middleware and server connections)
