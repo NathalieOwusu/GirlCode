@@ -1,0 +1,1 @@
+// The swipeable user card for the Discover screen
