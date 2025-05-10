@@ -33,7 +33,7 @@
 |------------------|----------------------------------------------------------------|
 | **Landing**       | Mission, Sign Up / Log In                                     |
 | **Auth**          | GitHub + Firebase/Auth0 login and sign up                     |
-| **Profile Setup** | Add bio, skill tags, GitHub/LinkedIn links                    |
+| **Profile Setup** | Add bio, TechStack, GitHub/LinkedIn links                    |
 | **Discover**      | Tinder-style dev swiping (like/pass)                          |
 | **Matches**       | View matches, initiate chat                                   |
 | **Chat Room**     | Real-time 1-on-1 messaging via Socket.io                      |
