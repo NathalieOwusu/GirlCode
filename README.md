@@ -18,7 +18,7 @@
 
 | Layer         | Tools                                              |
 |--------------|----------------------------------------------------|
-| **Frontend**  | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square) ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat-square) |![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white&style=flat-square) |logo=typescript&logoColor=white&style=flat-square) |
+| **Frontend**  | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square) ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat-square) ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white&style=flat-square) |
 | **Backend**   | ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=flat-square) ![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white&style=flat-square) |
 | **Database**  | ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat-square) |
 | **Auth**      | Firebase / Auth0 / GitHub OAuth                   |
@@ -33,7 +33,7 @@
 |------------------|----------------------------------------------------------------|
 | **Landing**       | Mission, Sign Up / Log In                                     |
 | **Auth**          | GitHub + Firebase/Auth0 login and sign up                     |
-| **Profile Setup** | Add bio, TechStack, GitHub/LinkedIn links                    |
+| **Profile Setup** | Add bio, skill tags, GitHub/LinkedIn links                    |
 | **Discover**      | Tinder-style dev swiping (like/pass)                          |
 | **Matches**       | View matches, initiate chat                                   |
 | **Chat Room**     | Real-time 1-on-1 messaging via Socket.io                      |
