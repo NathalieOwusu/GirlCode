@@ -1,0 +1,1 @@
+// Card showing a matched users info with a "start chat" button

@@ -1,0 +1,1 @@
+//Individual message in chat interface

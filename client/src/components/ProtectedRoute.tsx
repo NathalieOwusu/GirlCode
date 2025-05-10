@@ -1,0 +1,1 @@
+//component that checks auth and only renders children if the user is logged in

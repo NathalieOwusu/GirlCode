@@ -1,0 +1,1 @@
+// A small UI badge for displaying tech stack (e.g., "React", "Node.js")

@@ -1,0 +1,1 @@
+// Card used for user previews (e.g. dashboard, matches)

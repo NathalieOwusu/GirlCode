@@ -16,21 +16,20 @@
 function App() {
   return (
     <>
-<h1>Hello, World!</h1>
 
 
       <Routes>
     <Route path = '/' element = {<Home />} />
-    <Route path = '/About' element = {About />} />
-    <Route path = 'ChatRoom' element = {ChatRoom />} />
-    <Route path = '/Dashboard' element = {Dashboard />} />
-    <Route path = '/Discover' element = {Discover />} />
-    <Route path = '/EditProfile' element = {EditProfile />} />
-    <Route path = '/Profile' element = {Profile />} />
-    <Route path = '/SignUp' element = {Signup />} />
-    <Route path = '/Login' element = {Login />} />
-    <Route path = '/Matches' element = {Matches />} />
-    <Route path = '/NotFound' element = {NotFound />} />
+    <Route path = '/About' element = {<About />} />
+    <Route path = 'ChatRoom' element = {<ChatRoom />} />
+    <Route path = '/Dashboard' element = {<Dashboard />} />
+    <Route path = '/Discover' element = {<Discover />} />
+    <Route path = '/EditProfile' element = {<EditProfile />} />
+    <Route path = '/Profile' element = {<Profile />} />
+    <Route path = '/SignUp' element = {<Signup />} />
+    <Route path = '/Login' element = {<Login />} />
+    <Route path = '/Matches' element = {<Matches />} />
+    <Route path = '/NotFound' element = {<NotFound />} />
       </Routes>
 
     </>
