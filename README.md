@@ -56,20 +56,20 @@ npm run dev
 ```
 ---
 
-🛠 Future Contributions
+## 🛠 Future Contributions
 We are currently working on the initial development stages. Contributions will be open soon! Stay tuned for updates.
 
 ---
 
-🎥 Demo & Screenshots
+## 🎥 Demo & Screenshots
 Coming soon: Visuals of the app in action!
 
 ---
 
-📜 License
+## 📜 License
 This project is under development and licensed under the MIT License.
 
 ---
 
-✍️ Author
+## ✍️ Author
 Made with 💖 by Nathalie Owusu
