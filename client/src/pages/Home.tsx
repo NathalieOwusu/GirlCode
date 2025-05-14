@@ -1,10 +1,11 @@
 // landing page (CTA:'Join Now' or "Log in")
-import React from "react";
+import Button from '../components/button.tsx'
 
 export default function Home(){
 return (
-    <div>
-        <h2> Home Page</h2>
+    
+        <div className="p-10">
+        <Button color="black">Click Me</Button>
     </div>
 )
 }

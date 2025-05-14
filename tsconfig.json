@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "types": ["node","tailwindcss"],
+    "allowImportingTsExtensions": true,
+    "types": ["node", "tailwindcss"],
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -17,6 +18,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["./*"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
 }
