@@ -1,5 +1,4 @@
   import { Routes, Route } from 'react-router-dom';
-  import React from 'react';
   import Home from './pages/Home.tsx';
   import About from './pages/About.tsx';
   import ChatRoom from './pages/ChatRoom.tsx';
@@ -11,12 +10,15 @@
   import NotFound from './pages/NotFound.tsx';
   import Profile from './pages/Profile.tsx';
   import Signup from './pages/Signup.tsx'
+  import Button from './components/button.tsx'
 
 
 function App() {
   return (
     <>
-
+ <div className="bg-blue-500 text-white p-4 rounded">
+      Tailwind is working 🎉
+    </div>
 
       <Routes>
     <Route path = '/' element = {<Home />} />
@@ -30,6 +32,7 @@ function App() {
     <Route path = '/Login' element = {<Login />} />
     <Route path = '/Matches' element = {<Matches />} />
     <Route path = '/NotFound' element = {<NotFound />} />
+    <Route path = '/button' element = {<Button color={ 'black' } children={undefined} />} />
       </Routes>
 
     </>
