@@ -3,7 +3,8 @@ import React from 'react';
 
 type NavBarProps = {
   color: "teal" | "yellow";
-  children?: React.ReactNode; // optional, since you don’t use it inside
+  children?: React.ReactNode; 
+  className?: string;
 };
 
 export default function Navbar({ color, children }: NavBarProps) {
