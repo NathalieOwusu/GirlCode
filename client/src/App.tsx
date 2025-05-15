@@ -11,15 +11,17 @@
   import Profile from './pages/Profile.tsx';
   import Signup from './pages/Signup.tsx'
   import Button from './components/button.tsx'
+  import Nav from './components/Navbar.tsx'
 
 
 function App() {
+  
   return (
     <>
- <div className="bg-blue-500 text-white p-4 rounded">
-      Tailwind is working 🎉
-    </div>
-
+     <Nav color={'teal'} />
+    
+    
+    
       <Routes>
     <Route path = '/' element = {<Home />} />
     <Route path = '/About' element = {<About />} />
