@@ -2,6 +2,7 @@
 import favicon from '../assets/icons/favicon3.png';
 import background from '../assets/illustrations/Background.jpg';
 import Nav from "../components/Navbar.tsx";
+import Signup from './Signup.tsx';
 
 export default function Home() {
   return (
@@ -14,8 +15,9 @@ export default function Home() {
         className="w-[1200px] h-[800px] mx-auto bg-center bg-no-repeat bg-cover rounded-xl shadow-lg border-6 border-purple-300"
         style={{
           backgroundImage: `url(${background})`,
-        }}
-      ></div>
+        }}>
+        <Signup />
+      </div>
 
       <div className="px-10 mt-10">
         <Nav color="yellow" className="w-full p-6" />
