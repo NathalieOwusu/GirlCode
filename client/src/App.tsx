@@ -35,7 +35,7 @@ function App() {
     <Route path = '/Login' element = {<Login />} />
     <Route path = '/Matches' element = {<Matches />} />
     <Route path = '/NotFound' element = {<NotFound />} />
-    <Route path = '/button' element = {<Button color={ 'black' } children={undefined} />} />
+    <Route path = '/button' element = {<Button color={'black'} label={''} />} />
       </Routes>
 
     </>

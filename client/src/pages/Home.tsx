@@ -5,11 +5,14 @@ import Nav from "../components/Navbar.tsx";
 import Signup from './Signup.tsx';
 import Logo from '../assets/illustrations/Logo.png';
 import SpeechBubble from '../assets/illustrations/speech bubble.png'
-
 export default function Home() {
   return (
     <>
       <div className="absolute w-full h-screen flex items-center justify-center">
+        <div className=" relative bottom-[203px] left-[300px] " >
+        
+
+         </div>
   {/* Speech bubble*/}
   <div className="absolute left-[500px] bottom-[350px] z-10 transform- rotate-10">
     <img src={SpeechBubble} alt="speech-bubble" width={450} />
@@ -51,6 +54,7 @@ export default function Home() {
         <p className="mt-4 text-center text-lg font-semibold text-pink-400 top-[252px] relative lacquer-regular">
           ✨ “For women who want to make noise, break barriers, and challenge the status quo in Tech” ✨
         </p>
+
     </>
   );
 }

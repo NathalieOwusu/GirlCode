@@ -1,10 +1,14 @@
 //Resuable styled button components
+import { Link } from 'react-router-dom'
 type ButtonProps = {
     color: "black" | "blue" | "white";
-    children: React.ReactNode;
+    label: string;
+    onClick?: () => void;
+    type?: 'button' | 'submit';
   };
   
-  export default function Button({ color, children }: ButtonProps) {
+  
+  export default function Button({ color, label, onClick, type = "submit" }: ButtonProps) {
     const colors = {
       black: "bg-black text-white",
       blue: "bg-blue-500 text-white",
@@ -12,11 +16,17 @@ type ButtonProps = {
     };
   
     return (
+       <div className="w-full">
       <button
-        className={`${colors[color]} rounded-full px-2 py-1.5 font-sans text-sm leading-6 font-medium shadow`}
+      type={type}
+        className={`${colors[color]} w-full rounded-full lacquer-regular text-lg leading-6 shadow  bg-purple-400 text-white py-3  hover:bg-purple-700 transition cursor-pointer`}
       >
-        {children}
+        {label}
+
       </button>
+      
+    
+    </div>
     );
   }
   

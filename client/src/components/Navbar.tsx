@@ -3,7 +3,6 @@ import React from 'react';
 
 type NavBarProps = {
   color: "periwinkle" | "yellow"| "pink"| "teal";
-
   className?: string;
 };
 

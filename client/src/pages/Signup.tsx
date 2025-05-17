@@ -1,20 +1,16 @@
 //Allows new Users to register (basic info: email, password, name)
 //after signup redirects to profile
-
+import { Link } from 'react-router-dom';
 import EmailIcon from '../assets/icons/Email-Icon.png';
 import PasswordIcon from '../assets/icons/Password-Icon.png';
 import ProfileIcon from '../assets/icons/profile-Icon.png';
+import Button from '../components/button.tsx';
 
 export default function SignupPage() {
   return (
-    <div className='relative left-180 top-10'>
-      <div className=" bg-amber-50 p-8 rounded-lg shadow-lg max-w-md">
-    
-
-    
+    <div className='absolute w-[500px] left-181 top-2.5'>
+      <div className=" bg-amber-50/90 p-8 rounded-lg shadow-lg max-w-md">
         <form method="post" className="space-y-4.5 ">
-
-
           <div>
             <label htmlFor="email" className="font-medium bg-[#fdf3d3] border-2 border-[#fdf3d3] rounded text-purple-950">Username</label>
             <div className="relative flex items-center">
@@ -28,6 +24,7 @@ export default function SignupPage() {
     type="text"
     placeholder="Enter your Username..."
     name="username"
+    required
   />
 </div>
           </div>
@@ -45,7 +42,7 @@ export default function SignupPage() {
               type="text"
               placeholder='Enter your Email...'
               name='email'
-
+              required
             />
             </div>
           </div>
@@ -64,6 +61,7 @@ export default function SignupPage() {
               type="password"
               placeholder="Enter your Password..."
               name="createpassword"
+              required
             />
           </div>
          </div>
@@ -81,18 +79,22 @@ export default function SignupPage() {
               type="text"
               placeholder="Confirm your Password..."
               name="confirmpassword"
+              required
             />
 </div>
           </div>
+          
+<Button color= 'black' label="sign up" type="submit"/>
 
-          <button
-            type="submit"
-            className="w-50 bg-purple-600 text-white py-2 rounded hover:bg-purple-700 transition"
-          >
-            SignUp
-          </button>
+    
         </form>
+  <div className="text-center relative top-[15px]">
+        <Link to="/login" className="text-purple-700 hover:underline ">
+          Already have an account? Log in
+        </Link>
+      </div>
       </div>
     </div>
   );
 }
+
