@@ -2,21 +2,23 @@
 import React from 'react';
 
 type NavBarProps = {
-  color: "teal" | "yellow";
-  children?: React.ReactNode; 
+  color: "periwinkle" | "yellow"| "pink"| "teal";
+
   className?: string;
 };
 
-export default function Navbar({ color, children }: NavBarProps) {
+export default function Navbar({ color }: NavBarProps) {
   // Map color prop to Tailwind background classes
   const bgColorClass = {
-    teal: "bg-[#D1EFEC] text-black",
+    periwinkle: "bg-[#8F8EFF] text-black",
     yellow: "bg-[#FDF3D3] text-black h-[150px]",
-  }[color] || "bg-white text-gray-800";
+    pink: "bg-[#DBB1FF]",
+    teal:'bg-[#d1efec]',
+  }[color] ;
 
   return (
     <nav className={`${bgColorClass} border-b border-gray-300 p-4 shadow-sm`}>
-      {children}
+      
     </nav>
   );
 }

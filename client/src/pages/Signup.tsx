@@ -7,12 +7,12 @@ import ProfileIcon from '../assets/icons/profile-Icon.png';
 
 export default function SignupPage() {
   return (
-    <div className='relative left-180 top-20'>
-      <div className=" bg-amber-50/50 p-8 rounded-lg shadow-lg max-w-md w-full">
+    <div className='relative left-180 top-10'>
+      <div className=" bg-amber-50 p-8 rounded-lg shadow-lg max-w-md">
     
 
     
-        <form method="post" className="space-y-4">
+        <form method="post" className="space-y-4.5 ">
 
 
           <div>

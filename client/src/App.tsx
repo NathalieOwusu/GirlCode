@@ -9,16 +9,17 @@
   import Matches from './pages/Matches.tsx';
   import NotFound from './pages/NotFound.tsx';
   import Profile from './pages/Profile.tsx';
-  import Signup from './pages/Signup.tsx'
-  import Button from './components/button.tsx'
-  import Nav from './components/Navbar.tsx'
+  import Signup from './pages/Signup.tsx';
+  import Button from './components/button.tsx';
+  import Nav from './components/Navbar.tsx';
+  import './assets/fonts/bonbon.css';
 
 
 function App() {
   
   return (
     <>
-     <Nav color={'teal'} />
+     <Nav color={'periwinkle'} />
    
     
     
