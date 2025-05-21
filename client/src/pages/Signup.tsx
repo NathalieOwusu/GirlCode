@@ -9,7 +9,7 @@ import Button from '../components/button.tsx';
 export default function SignupPage() {
   return (
     <div className='absolute w-[500px] left-181 top-2.5'>
-      <div className=" bg-amber-50/90 p-8 rounded-lg shadow-lg max-w-md">
+      <div className=" bg-amber-50/90 p-3 rounded-lg shadow-lg max-w-md">
         <form method="post" className="space-y-4.5 ">
           <div>
             <label htmlFor="email" className="font-medium bg-[#fdf3d3] border-2 border-[#fdf3d3] rounded text-purple-950">Username</label>
@@ -83,12 +83,24 @@ export default function SignupPage() {
             />
 </div>
           </div>
+          <div className="relative flex items-center ">
+    <input
+      type="checkbox"
+      id="remember"
+      name="remember"
+      className="mr-2"
+    />
+    <label htmlFor="remember" className="text-purple-950">
+      Remember me
+    </label>
+  </div>
+
           
 <Button color= 'black' label="sign up" type="submit"/>
 
     
         </form>
-  <div className="text-center relative top-[15px]">
+  <div className="text-center relative">
         <Link to="/login" className="text-purple-700 hover:underline ">
           Already have an account? Log in
         </Link>
